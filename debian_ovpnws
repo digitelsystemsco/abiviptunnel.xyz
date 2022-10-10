@@ -1,3 +1,11 @@
+#!/bin/bash
+#Script Variables
+HOST='174.138.190.54';
+USER='ksatunne_abiviptunnel';
+PASS='abivip9878@@#tunnel';
+DBNAME='ksatunne_abiviptunnel';
+PORT_TCP='1194';
+PORT_UDP='53';
 timedatectl set-timezone Asia/Riyadh
 install_require () {
 clear
